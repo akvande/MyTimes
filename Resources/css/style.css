@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  border-bottom: solid;
+  display:flex;
+  vertical-align: middle;
+  z-index: 2;
+}
+.logo{
+  color: mediumaquamarine;
+  width: auto;
+}
+header img{
+  padding: 5px 15px 5px 50px;
+  vertical-align: middle;
+  }
+nav {
+  text-align: right;
+  position: fixed;
+  height: 65px;
+  width: 90%;
+  z-index: 2;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+nav a {
+  color: black;
+  width: 100px;
+}
