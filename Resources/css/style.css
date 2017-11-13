@@ -8,6 +8,8 @@ header {
   position: fixed;
   height: 70px;
   width: 100%;
+  top: 0px;
+  background-color: white;
   border-bottom: solid;
   display:flex;
   vertical-align: middle;
@@ -40,18 +42,53 @@ nav a {
 }
 .tuna{
   text-align: center;
-  max-width: 450px;
+  max-width: 550px;
   min-height: 400px;
   margin-left: 20px;
   position: relative;
   top: 70px;
 }
-h1{
+.tuna-title{
   color: white;
-  padding: 50px;
+  padding: 50px 20px;
   background-image:
   url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
 }
 .tuna p{
   text-align: left;
 }
+.two-columns{
+  max-width: 550px;
+  height: auto;
+  column-count: 2;
+  column-gap: px;
+  column-width: 265px;
+  vertical-align: text-top;
+  margin-left: 20px;
+  position: relative;
+  top: 80px;
+  }
+.orca{
+
+}
+.earth {
+  height: 250px;
+  position: relative;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  background-image:
+  url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png');
+  }
+.burger{
+
+}
+.camera{
+  height: 250px;
+  position: relative;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+    background-image:
+  url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png');
+  }
