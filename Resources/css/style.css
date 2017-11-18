@@ -68,6 +68,7 @@ p{
   justify-content: center;
   align-content: center;
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 /* First Column */
@@ -172,7 +173,7 @@ p{
 }
 .cats h1{
   position: absolute;
-  top:100px;
+  top:120px;
 }
 
 /* Third Column */
@@ -181,7 +182,6 @@ p{
   width: 240px;
   display:flex;
   flex-direction: column;
-  border: solid purple;
 }
 .cookie{
   display: flex;
@@ -197,41 +197,66 @@ p{
 }
 .list{
   display: flex;
+  background-color: whitesmoke;
+  color: dimgray;
   font-family: Verdana;
   font-size: 12px;
-  text-align: left;
-  margin: 0;
+}
+.list ul{
+  width: 100%;
+  margin-top: 0;
   padding: 0;
-  width: 20em;
-  color: DimGray;
 }
 .list li{
+  display: flex;
   list-style-type: none;
-  background-color: WhiteSmoke;
-  background-repeat: repeat;
-  background-position: 100% .4em;
-  padding-left: .6em;
-  margin: 1em 0;
-  border-top: soild;
-  border-bottom: solid;
-}
+  padding: 10px 0px 10px 15px;
+  border-top: soild 1px;
+  border-bottom: solid 1px;
+  }
 /* footer */
 
 .footer{
-
+  margin: auto;
+  font-style: Verdana;
+  font-size: 12px;
 }
-.bottom-row1{
-  display: inline-block;
+.bottom-container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
   background-color: MediumAquamarine;
   margin: auto;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+}
+ul{
+  list-style: none;
+  width: 100%;
+  margin-top: 0;
+  padding: 0px;
   font-family: Verdana;
   font-size: 12px;
 }
-.bottom-row1 nav{
-  display: inline-block;
-  text-align: right;
-  position: fixed;
-  height: 65px;
-  width: 90%;
-  z-index: 2;
+li{
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0px 25px 0px 0px;
+  }
+li span{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+  .bottom-container p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 12px;
+  }
+
 }
